@@ -114,29 +114,61 @@
     </div>
   </section>
 
-  <!-- ===================== -->
-<!-- Contribution          -->
+ <!-- ===================== -->
+<!-- Contribution (compact) -->
 <!-- ===================== -->
 <section id="contribution" class="relative py-12">
   <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
     <div class="rounded-2xl p-0">
       <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Contribution</h2>
 
-      <!-- Pricing grid -->
-      <div class="mt-6 grid gap-6 sm:grid-cols-3">
-        <!-- Workshop -->
-        <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
-          <h3 class="font-semibold">Workshop</h3>
-          <p class="mt-1 text-3xl font-extrabold">€240</p>
-          <p class="mt-2 text-sm text-gray-600">Reduced rate available upon request.</p>
+      <!-- Workshop: single prominent card -->
+      <div class="mt-6 bg-white rounded-xl border border-gray-100 shadow-sm p-5 sm:p-6">
+        <div class="flex flex-wrap items-center gap-3 justify-between">
+          <div>
+            <h3 class="font-semibold text-gray-900">Workshop</h3>
+            <div class="mt-1 flex items-baseline gap-3">
+              <p class="text-3xl font-extrabold text-gray-900">€240</p>
+
+              <!-- Early Bird badge next to price -->
+              <span class="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-sm text-emerald-900">
+                🕊️ <strong>Early Bird</strong> €180
+                <span class="opacity-70">until Wed, Nov 12</span>
+              </span>
+            </div>
+            <p class="mt-2 text-sm text-gray-600">Reduced rate available upon request.</p>
+          </div>
+
+          <!-- Inner Circle chip aligned right -->
+          <span class="mt-2 sm:mt-0 inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-sm text-indigo-900">
+            💫 <strong>Inner Circle</strong>: €200
+          </span>
         </div>
 
-        <!-- Food -->
-        <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
-          <h3 class="font-semibold">Food</h3>
-          <p class="mt-1 text-3xl font-extrabold">€25</p>
-          <p class="mt-2 text-sm text-gray-600">Homemade vegetarian meals for the weekend.</p>
+        <!-- Thin divider -->
+        <div class="mt-5 h-px w-full bg-gray-100"></div>
+
+        <!-- Food & Location as simple lines (no cards) -->
+        <div class="mt-5 grid gap-2 sm:grid-cols-2">
+          <p class="text-gray-700"><span class="mr-2">🍲</span><strong>Food:</strong> €25 — homemade vegetarian meals</p>
+          <p class="text-gray-700"><span class="mr-2">📍</span><strong>Location:</strong> €30 — venue contribution</p>
         </div>
+
+        <!-- Deposit as subtle inline note (no card) -->
+        <p class="mt-4 text-sm text-gray-600">
+          <strong>Deposit:</strong> Please make a €50 deposit after registration. The remaining balance can be paid
+          <em>in cash upon arrival</em>.
+        </p>
+      </div>
+
+      <!-- Overall note (muted) -->
+      <p class="mt-6 text-sm text-gray-500">
+        All contributions include meals, lodging, and participation in the full weekend program.
+      </p>
+    </div>
+  </div>
+</section>
+
 
         <!-- Location -->
         <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
